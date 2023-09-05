@@ -1,0 +1,27 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            var id=window.prompt("Enter ID");
+            var mark1=parseInt(window.prompt("Enter First Mark"));
+            var mark2=parseInt(window.prompt("Enter Second Mark"));
+            var mark3=parseInt(window.prompt("Enter Third Mark"));
+        
+            var average=(mark1+mark2+mark3)/3;
+            var grade;
+        
+            if (average<=50)
+            {
+                grade="Fail";
+            }
+            else
+            {
+                grade="Pass";
+            }
+        
+            document.write("Average mark is "+average+" and "+grade);
+        </script>
+    </body>
+</html>
